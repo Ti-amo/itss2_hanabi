@@ -1,0 +1,32 @@
+.head_contact {
+    display: flex;
+    background-color: rgb(53, 112, 37);
+    height: 2.5rem;
+    align-items: center;
+    justify-items: center;
+}
+
+.head_contact span {
+    margin-left: 3rem;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-family: 'Nerko One', cursive;
+}
+
+.nav_search {
+    margin-right: 10rem;
+}
+
+.nav_text {
+    color: rgb(59, 59, 59);
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#navbarSupportedContent ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

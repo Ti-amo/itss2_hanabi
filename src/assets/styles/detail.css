@@ -1,0 +1,35 @@
+.detail_img {
+  vertical-align: middle;
+  width: 40rem !important;
+  text-align: center;
+  line-height: 200px;
+}
+.detail_img img {
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto;
+  width: auto;
+  max-width: 100% !important;
+  height: 100% !important;
+  transition: opacity 1s;
+  opacity: 1;
+}
+
+.detail_name {
+    text-decoration:underline rgb(180, 178, 178);
+}
+
+.detail_comment {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    justify-content: flex-end;
+}
+
+.detail_comment p {
+    width: 10rem;
+    text-align: center;
+}
+
+
+
